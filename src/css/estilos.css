@@ -1,5 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;500&display=swap');
+
+
 body {
     font-family: 'Poppins';
+    background-color: #f44336;
+
 }
 
 .cabecalho {
@@ -40,6 +45,7 @@ body {
     align-items: center;
     height: calc(100vh - 132px);
     padding: 0 30px 30px;
+    
 }
 
 .container .imagem-titulo {
@@ -51,10 +57,12 @@ body {
     width: 85%;
     font-size: 18px;
     margin: 30px 0;
+    color: #ffffff;
+    text-align: center;
 }
 
 .container .botao-trailer {
-    background-color: #ff0021;
+    background-color: #263238;
     color: #ffffff;
     padding: 15px;
     font-size: 18px;
